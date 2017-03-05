@@ -8,7 +8,7 @@ A java bot that automatically plays and consistently wins at Microsoft Wordament
 1. Git 2.6+
 2. Maven 3.3+
 3. Java 8+
-4. Android emulator scaled and positioned appropriated on screen
+4. Android emulator (NoxPlayer) scaled and positioned appropriated on screen (Top,Left) = (0,0)
 5. Wordament App Installed on the emulator
 
 
