@@ -1,16 +1,44 @@
 # WordamentBot
-Win at Wordament / Boggle consistently
 
-## Watch it in action!
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=moXRIxvnP3E" target="_blank" ><img src="ytthumb.png" alt="Always 1ˢᵗ Place in Wordament / Boggle !!!" width="640" height="390" border="10" /></a>
+A java bot that automatically plays and consistently wins at Microsoft Wordament.
 
-- Requires Java SE > 5
-- Android emulator scaled and positioned appropriated on screen
-- Wordament App Installed on the emulator
-- Preferably latest Eclipse IDE
 
-```java
-Run WordRun.java and the rest should be self explainatory.
-Word List is contained in words.txt
+## Prerequires
+
+1. Git 2.6+
+2. Maven 3.3+
+3. Java 8+
+4. Android emulator scaled and positioned appropriated on screen
+5. Wordament App Installed on the emulator
+
+
+## How to Play
+
+Clone
+
 ```
-Ragul Balaji (C) Written sometime in 2014
+git clone https://github.com/humbertodias/java-bot-wordament.git
+```
+
+Inside the folder
+
+```
+cd java-bot-wordament
+```
+
+Run
+
+```
+mvn package exec:java -Dexec.mainClass="bot.wordament.Main"
+```
+
+## Output
+![Preview](doc/output.gif)
+
+
+## References
+
+
+1. [Wordament PlayStore](https://play.google.com/store/apps/details?id=com.microsoft.wordament&hl=pt_BR)
+
+2. [Nox Android Player](https://pt.yeshen.com)
